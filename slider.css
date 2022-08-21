@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar .navbar-brand{ 
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbar .navbar-nav .nav-item .nav-link{ 
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-nav {
+      background-color: olive;
+    }
+    .navbar-toggler{ 
+        background-color: white;
+    }
+  }
+.carousel-item img{ 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+.carousel-item::before {
+    content: "";
+    background-color: rgba(30, 35, 40, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+.carousel-caption{ 
+    bottom: 200px;
+}
+.carousel-caption h1{ 
+    color: rgb(0, 255, 55);
+    letter-spacing: 2px;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.carousel-caption h3{ 
+    color: white;
+}
+
+.carousel-caption p a{ 
+    background: green; 
+    padding: 14px 30px;
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+
+
